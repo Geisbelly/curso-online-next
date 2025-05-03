@@ -4,13 +4,17 @@ import { UserPlus, CheckCircle } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import coursesData from '../data/courses.json';
 
-const RegistrationForm = () => {
+interface RegistrationFormProps {
+  selectedCourseId?: number | string;
+}
+
+const RegistrationForm = ({ selectedCourseId }: RegistrationFormProps) => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
-    courseId: '',
+    courseId: selectedCourseId ? String(selectedCourseId) : '',
     institution: '',
     motivation: '',
   });
