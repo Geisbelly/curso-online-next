@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "name": "TechLink",
+    "logo": "/images/sponsors/techlink.webp",
+    "website": "https://techlink.example.com",
+    "social": {
+      "instagram": "techlink_official",
+      "linkedin": "techlink-company"
+    }
+  },
+  {
+    "id": 2,
+    "name": "CodeNova",
+    "logo": "/images/sponsors/codenova.webp",
+    "website": "https://codenova.example.com",
+    "social": {
+      "instagram": "codenova",
+      "linkedin": "codenova-tech"
+    }
+  },
+  {
+    "id": 3,
+    "name": "ByteForge",
+    "logo": "/images/sponsors/byteforge.webp",
+    "website": "https://byteforge.example.com",
+    "social": {
+      "instagram": "byteforge_official",
+      "linkedin": "byteforge"
+    }
+  },
+  {
+    "id": 4,
+    "name": "DevSphere",
+    "logo": "/images/sponsors/devsphere.webp",
+    "website": "https://devsphere.example.com",
+    "social": {
+      "instagram": "devsphere",
+      "linkedin": "devsphere-inc"
+    }
+  },
+  {
+    "id": 5,
+    "name": "InnovateTech",
+    "logo": "/images/sponsors/innovatetech.webp",
+    "website": "https://innovatetech.example.com",
+    "social": {
+      "instagram": "innovate_tech",
+      "linkedin": "innovatetech"
+    }
+  },
+  {
+    "id": 6,
+    "name": "QuantumBit",
+    "logo": "/images/sponsors/quantumbit.webp",
+    "website": "https://quantumbit.example.com",
+    "social": {
+      "instagram": "quantum_bit",
+      "linkedin": "quantumbit-systems"
+    }
+  }
+]

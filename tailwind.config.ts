@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,16 +53,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Custom FlashClip colors
+				flashblue: {
+					DEFAULT: '#024476',
+					light: '#0a5285',
+					dark: '#014576',
+				},
+				flashdark: {
+					DEFAULT: '#121212',
+					light: '#1a1a1a',
+					dark: '#0a0a0a',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +86,37 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'glow': {
+					'0%, 100%': { 
+						textShadow: '0 0 10px rgba(2, 68, 118, 0.7), 0 0 20px rgba(2, 68, 118, 0.5)' 
+					},
+					'50%': { 
+						textShadow: '0 0 20px rgba(2, 68, 118, 1), 0 0 30px rgba(2, 68, 118, 0.8)' 
+					},
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'gradient': {
+					'0%': { backgroundPosition: '0% 50%' },
+					'50%': { backgroundPosition: '100% 50%' },
+					'100%': { backgroundPosition: '0% 50%' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glow': 'glow 2s ease-in-out infinite',
+				'float': 'float 3s ease-in-out infinite',
+				'gradient': 'gradient 3s ease infinite',
+			},
+			backgroundImage: {
+				'hero-pattern': 'linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(2,68,118,0.3)), url("/images/hero-bg.jpg")',
+				'card-gradient': 'linear-gradient(135deg, #024476 0%, #013966 100%)',
+				'glow-gradient': 'linear-gradient(45deg, #024476, #0a5285, #024476)',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

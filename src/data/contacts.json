@@ -1,0 +1,19 @@
+
+{
+  "email": "contato@flashclip.tech",
+  "phone": "+55 (51) 3333-4444",
+  "address": "Campus Ulbra, Av. Farroupilha, 8001 - São José, Canoas - RS",
+  "socialMedia": {
+    "ulbra": {
+      "instagram": "https://instagram.com/ulbra",
+      "website": "https://www.ulbra.br",
+      "email": "contato@ulbra.br",
+      "whatsapp": "https://wa.me/5551988887777"
+    },
+    "event": {
+      "instagram": "https://instagram.com/flashclip",
+      "whatsapp": "https://wa.me/5551999994444",
+      "email": "contato@flashclip.tech"
+    }
+  }
+}

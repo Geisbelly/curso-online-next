@@ -1,0 +1,25 @@
+
+{
+  "name": "FlashClip",
+  "year": "2025",
+  "slogan": "Programação na Velocidade da Luz",
+  "description": "Um evento imersivo de programação com foco em tecnologias emergentes e práticas modernas de desenvolvimento de software",
+  "longDescription": "O FlashClip é um evento anual organizado pela Ulbra que reúne estudantes, profissionais e entusiastas de tecnologia para uma jornada intensiva de aprendizado. Com workshops práticos, palestras inspiradoras e networking de qualidade, o FlashClip proporciona uma experiência completa para quem deseja se manter na vanguarda do desenvolvimento de software.",
+  "organizers": [
+    {
+      "name": "Universidade Luterana do Brasil",
+      "acronym": "Ulbra",
+      "logo": "/images/ulbra-logo.webp"
+    },
+    {
+      "name": "Departamento de Ciência da Computação",
+      "acronym": "DCC",
+      "logo": "/images/dcc-logo.webp"
+    }
+  ],
+  "meta": {
+    "keywords": "programação, curso, desenvolvimento, software, coding, tecnologia, web, mobile",
+    "author": "FlashClip Team",
+    "viewport": "width=device-width, initial-scale=1.0"
+  }
+}

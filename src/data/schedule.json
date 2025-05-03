@@ -1,0 +1,84 @@
+
+{
+  "eventDate": "2025-11-15T09:00:00",
+  "events": [
+    {
+      "id": 1,
+      "title": "Cerimônia de Abertura",
+      "description": "Apresentação do evento, patrocinadores e programação geral.",
+      "date": "2025-11-15T09:00:00",
+      "duration": 60,
+      "location": "Auditório Principal"
+    },
+    {
+      "id": 2,
+      "title": "Workshop: Introdução ao Go",
+      "description": "Primeiros passos com a linguagem Go e seu ecossistema.",
+      "date": "2025-11-15T10:30:00",
+      "duration": 90,
+      "location": "Sala 101",
+      "instructor": "Marcos Silveira"
+    },
+    {
+      "id": 3,
+      "title": "Palestra: Lógica de Programação com Prolog",
+      "description": "Fundamentos de programação lógica e aplicações práticas.",
+      "date": "2025-11-15T10:30:00",
+      "duration": 90,
+      "location": "Sala 102",
+      "instructor": "Clara Mendes"
+    },
+    {
+      "id": 4,
+      "title": "Almoço",
+      "description": "Intervalo para almoço e networking.",
+      "date": "2025-11-15T12:00:00",
+      "duration": 90,
+      "location": "Área de Alimentação"
+    },
+    {
+      "id": 5,
+      "title": "Workshop: Ruby on Rails na Prática",
+      "description": "Desenvolvendo uma aplicação web completa com Ruby on Rails.",
+      "date": "2025-11-15T13:30:00",
+      "duration": 120,
+      "location": "Sala 103",
+      "instructor": "Juliana Costa"
+    },
+    {
+      "id": 6,
+      "title": "Palestra: TypeScript e o Futuro do JavaScript",
+      "description": "Como o TypeScript está moldando o desenvolvimento web moderno.",
+      "date": "2025-11-15T13:30:00",
+      "duration": 90,
+      "location": "Auditório Principal",
+      "instructor": "Lucas Oliveira"
+    },
+    {
+      "id": 7,
+      "title": "Workshop: Microserviços com C# e .NET Core",
+      "description": "Construindo arquiteturas escaláveis com tecnologias Microsoft.",
+      "date": "2025-11-15T15:30:00",
+      "duration": 120,
+      "location": "Sala 104",
+      "instructor": "Rafael Pereira"
+    },
+    {
+      "id": 8,
+      "title": "Painel: O Futuro da Programação",
+      "description": "Debate com especialistas sobre tendências e tecnologias emergentes.",
+      "date": "2025-11-15T17:00:00",
+      "duration": 90,
+      "location": "Auditório Principal",
+      "instructor": "Todos os instrutores"
+    },
+    {
+      "id": 9,
+      "title": "Encerramento e Networking",
+      "description": "Cerimônia de encerramento e oportunidade de networking.",
+      "date": "2025-11-15T18:30:00",
+      "duration": 90,
+      "location": "Área de Convivência"
+    }
+  ]
+}

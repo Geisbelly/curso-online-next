@@ -1,0 +1,148 @@
+
+[
+  {
+    "id": 1,
+    "slug": "go",
+    "name": "Programação em Go",
+    "language": "Go",
+    "description": "Aprenda a criar aplicações escaláveis e de alto desempenho com a linguagem Go, desenvolvida pelo Google.",
+    "longDescription": "Go é uma linguagem de programação de código aberto que facilita a criação de software simples, confiável e eficiente. Aprenda os fundamentos da linguagem Go, seus padrões de concorrência e como desenvolver aplicações web e microserviços com esta poderosa linguagem.",
+    "image": "/images/courses/go.webp",
+    "availableSeats": 20,
+    "totalSeats": 30,
+    "instructors": [
+      {
+        "name": "Marcos Silveira",
+        "role": "Desenvolvedor Senior Go",
+        "avatar": "/images/instructors/marcos.webp"
+      },
+      {
+        "name": "Patrícia Gomes",
+        "role": "Engenheira de Software",
+        "avatar": "/images/instructors/patricia.webp"
+      }
+    ],
+    "features": [
+      "Concorrência",
+      "Backend",
+      "Alta performance",
+      "Microserviços"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "prolog",
+    "name": "Lógica com Prolog",
+    "language": "Prolog",
+    "description": "Explore a programação lógica e resolução de problemas complexos com a linguagem Prolog.",
+    "longDescription": "Prolog é uma linguagem de programação lógica associada à inteligência artificial e linguística computacional. Neste curso, você aprenderá como modelar problemas usando lógica de primeira ordem e como utilizar o poderoso mecanismo de inferência do Prolog para criar sistemas especialistas e soluções para problemas complexos.",
+    "image": "/images/courses/prolog.webp",
+    "availableSeats": 15,
+    "totalSeats": 25,
+    "instructors": [
+      {
+        "name": "Clara Mendes",
+        "role": "PhD em Ciência da Computação",
+        "avatar": "/images/instructors/clara.webp"
+      },
+      {
+        "name": "Ricardo Alves",
+        "role": "Especialista em IA",
+        "avatar": "/images/instructors/ricardo.webp"
+      }
+    ],
+    "features": [
+      "Inteligência Artificial",
+      "Sistemas Especialistas",
+      "Raciocínio Lógico",
+      "Resolução de Problemas"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "ruby",
+    "name": "Ruby para Web",
+    "language": "Ruby",
+    "description": "Desenvolva aplicações web elegantes e produtivas com Ruby e Ruby on Rails.",
+    "longDescription": "Ruby é uma linguagem dinâmica e orientada a objetos com uma sintaxe elegante e natural. Neste curso, você aprenderá os fundamentos de Ruby e o framework Ruby on Rails, permitindo desenvolver aplicações web de forma ágil, com foco em produtividade e qualidade de código.",
+    "image": "/images/courses/ruby.webp",
+    "availableSeats": 18,
+    "totalSeats": 30,
+    "instructors": [
+      {
+        "name": "Juliana Costa",
+        "role": "Desenvolvedora Ruby",
+        "avatar": "/images/instructors/juliana.webp"
+      },
+      {
+        "name": "Fernando Lima",
+        "role": "Especialista em Rails",
+        "avatar": "/images/instructors/fernando.webp"
+      }
+    ],
+    "features": [
+      "Ruby on Rails",
+      "Desenvolvimento Web",
+      "TDD",
+      "APIs RESTful"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "typescript",
+    "name": "TypeScript Avançado",
+    "language": "TypeScript",
+    "description": "Domine o TypeScript e leve seu desenvolvimento JavaScript para o próximo nível.",
+    "longDescription": "TypeScript adiciona tipagem estática ao JavaScript, permitindo detectar erros em tempo de desenvolvimento. Neste curso avançado, você aprenderá a utilizar recursos poderosos do TypeScript como tipos genéricos, inferência de tipos, decorators, e como integrar com frameworks modernos como React, Next.js e Node.js.",
+    "image": "/images/courses/typescript.webp",
+    "availableSeats": 12,
+    "totalSeats": 35,
+    "instructors": [
+      {
+        "name": "Lucas Oliveira",
+        "role": "Desenvolvedor Full Stack",
+        "avatar": "/images/instructors/lucas.webp"
+      },
+      {
+        "name": "Amanda Santos",
+        "role": "Frontend Specialist",
+        "avatar": "/images/instructors/amanda.webp"
+      }
+    ],
+    "features": [
+      "TypeScript Avançado",
+      "React & Next.js",
+      "Node.js",
+      "Arquitetura de Software"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "csharp",
+    "name": "C# e .NET Core",
+    "language": "C#",
+    "description": "Construa aplicações robustas e multiplataforma com C# e .NET Core.",
+    "longDescription": "C# é uma linguagem de programação moderna e orientada a objetos desenvolvida pela Microsoft. Neste curso, você aprenderá a desenvolver aplicações multiplataforma com C# e .NET Core, explorando conceitos avançados como LINQ, Entity Framework, ASP.NET Core e arquitetura de microsserviços.",
+    "image": "/images/courses/csharp.webp",
+    "availableSeats": 22,
+    "totalSeats": 35,
+    "instructors": [
+      {
+        "name": "Rafael Pereira",
+        "role": "Arquiteto .NET",
+        "avatar": "/images/instructors/rafael.webp"
+      },
+      {
+        "name": "Camila Rocha",
+        "role": "Desenvolvedora Full Stack",
+        "avatar": "/images/instructors/camila.webp"
+      }
+    ],
+    "features": [
+      "ASP.NET Core",
+      "Entity Framework",
+      "Microserviços",
+      "Azure Cloud"
+    ]
+  }
+]
